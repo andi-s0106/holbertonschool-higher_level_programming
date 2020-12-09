@@ -13,3 +13,4 @@ Learning python loops
 8-uppercase.py
 9-print_last_digit.py
 10-add.py
+11-pow.py
