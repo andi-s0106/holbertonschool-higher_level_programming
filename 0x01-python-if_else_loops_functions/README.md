@@ -11,3 +11,4 @@ Learning python loops
 6-print_comb3.py
 7-islower.py
 8-uppercase.py
+9-print_last_digit.py
