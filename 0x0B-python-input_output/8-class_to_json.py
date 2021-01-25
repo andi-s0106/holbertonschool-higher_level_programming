@@ -1,5 +1,5 @@
 #!/usr/bin/python3
- '''
+'''
         Returns the dict representation of a class
 '''
 
