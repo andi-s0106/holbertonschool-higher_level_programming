@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-import sys
 '''
         Printing the status of the request
 '''
+
+
+import sys
 
 
 def print_status():
