@@ -8,7 +8,7 @@ if (isNaN(parseInt(process.argv[2]))) {
   for (let h = 0; h < x; h++) {
     let p = '';
     for (let w = 0; w < x; w++) {
-      p = p + 'x';
+      p = p + 'X';
     }
     console.log(p);
   }
