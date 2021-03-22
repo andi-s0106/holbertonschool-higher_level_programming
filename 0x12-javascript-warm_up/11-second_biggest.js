@@ -8,9 +8,9 @@ function second (array) {
   let sb = array[3];
 
   for (let i = 2; i < array.length; i++) {
-    if (array[1] > b) {
+    if (array[i] > b) {
       sb = b;
-      b = array[1];
+      b = array[i];
     } else if (array[i] > sb && array[i] < b) {
       sb = array[i];
     }
