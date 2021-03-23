@@ -8,11 +8,11 @@ function second (array) {
   let sb = array[3];
 
   for (let i = 2; i < array.length; i++) {
-    if (array[i] > b) {
-      sb = b;
-      b = array[i];
-    } else if (array[i] > sb && array[i] < b) {
+    if (parseInt(array[i]) > sb && parseInt(array[i]) < b) {
       sb = array[i];
+    } else if (parseInt(array[i]) > b) {
+        sb = b;
+        b = array[i];
     }
   }
   return (sb);
