@@ -11,8 +11,8 @@ function second (array) {
     if (parseInt(array[i]) > sb && parseInt(array[i]) < b) {
       sb = array[i];
     } else if (parseInt(array[i]) > b) {
-        sb = b;
-        b = array[i];
+      sb = b;
+      b = array[i];
     }
   }
   return (sb);
