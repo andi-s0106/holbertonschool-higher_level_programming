@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+'''
+    fetches https://intranet.hbtn.io/status
+'''
 from urllib.request import Request, urlopen
 
 if __name__ == "__main__":
